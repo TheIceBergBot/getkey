@@ -8,7 +8,7 @@ from getkey import __version__
 
 
 def read_description():
-    with io.open('README.rst', encoding='utf-8') as fd:
+    with io.open('README.md', encoding='utf-8') as fd:
         return fd.read()
 
 
@@ -34,7 +34,7 @@ class PyTest(TestCommand):
 setup(
     name='getkey',
     version=__version__,
-    description="Read single characters and key-strokes",
+    description="Raw read single characters and key-strokes",
     long_description=read_description(),
     classifiers=[
         'Development Status :: 5 - Production/Stable',
@@ -46,13 +46,18 @@ setup(
         'Programming Language :: Python :: 3.3',
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.9',
+        'Programming Language :: Python :: 3.10',
         'Topic :: Software Development',
         'Topic :: Software Development :: User Interfaces',
     ],
-    keywords='stdin,command line',
-    author='K.C.Saff',
-    author_email='kc@saff.net',
-    url='https://github.com/kcsaff/getkey',
+    keywords='stdin,command line,keypress,getkey,get keypress',
+    author='TheIceBergBot',
+    author_email='mydadisbrave4@gmail.com',
+    url='https://github.com/TheIceBergBot/getkey',
     license='MIT',
     packages=find_packages(exclude=['tests', 'tools', 'venv']),
     include_package_data=True,
