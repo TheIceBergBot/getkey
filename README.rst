@@ -6,10 +6,6 @@ See original at:
 - `pypi`_
 - `GitHub`_
 
-See updated at:
-- `pypi`_
-- `https://github.com/TheIceBergBot/getkey`_
-
 ==============  ===============  =========  ============
 VERSION         DOWNLOADS        TESTS      COVERAGE
 ==============  ===============  =========  ============
