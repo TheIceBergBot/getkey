@@ -1,16 +1,9 @@
 # -*- coding: utf-8 -*-
 
 import sys
-import io
 from setuptools import setup, find_packages
 from setuptools.command.test import test as TestCommand
 from getkey import __version__
-
-
-def read_description():
-    with io.open('README.md', encoding='utf-8') as fd:
-        return fd.read()
-
 
 class PyTest(TestCommand):
     user_options = [('pytest-args=', 'a', "Arguments to pass to py.test")]
@@ -32,10 +25,10 @@ class PyTest(TestCommand):
 
 
 setup(
-    name='getkey',
+    name='get-key',
     version=__version__,
     description="Raw read single characters and key-strokes",
-    long_description=read_description(),
+    long_description="https://github.com/TheIceBergBot/getkey",
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Environment :: Console',

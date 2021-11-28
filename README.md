@@ -1,5 +1,7 @@
-# Python GetKey
+# Python Get-Key
 > A powerful beta __keypress detection module__
+
+[PyPi Current Uploaded Build](https://pypi.org/project/get-key/)
 
 ## Quick Start
 
@@ -38,12 +40,12 @@ Now ```my_getkey``` will be a function returning keys that won't throw on Ctrl-C
 
 ## Installation
 ```python
-pip install getkey
+pip install get-key
 ```
 ```python
-pip3 install getkey
+pip3 install get-key
 ```
-The getkey library is compatible with python 3.2 to 3.10+ (tested and worked).
+The get-key library is compatible with python 3.2 to 3.10+ (tested and worked).
 >
 ## Usage
 ```python
